@@ -1,0 +1,39 @@
+@media screen and (max-width:576px) {
+    .nav-section-child2{
+        display: none;
+    }
+   .banner-section-parent{
+    flex-direction: column-reverse;
+   }
+   .banner-section-child2-img2{
+        right: 15px;
+   }
+   .banner-section-parent{
+        text-align: center;
+   }
+   /* .sidenab-media{
+        display: inline;
+        color: black;
+        margin-right: 100px;
+    } */
+
+   /* loogo */
+   .logo-img{
+    flex-direction: column;
+    align-items:  center;
+   }
+
+
+    /* cards */
+    .popular-section-parent{
+       
+        grid-template-columns: repeat(1,1fr);
+    }
+    /* featured  */
+    .featured-section-parent{
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+     
+}
